@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+    font-family: "Inter";
+}
+
+:root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never;
+}
+
+.custom-slick-slider .slick-list {
+    overflow: visible !important;
+}
+
+.custom-slick-slider .slick-track {
+    display: flex;
+}
+
+.custom-slick-slider .slick-slide
+{
+    height: inherit !important;
+}
+
+.custom-slick-slider .slick-slide > div
+{
+    height: 100%;
+}

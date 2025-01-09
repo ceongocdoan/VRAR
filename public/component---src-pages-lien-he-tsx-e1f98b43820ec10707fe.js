@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkonschool_demo=self.webpackChunkonschool_demo||[]).push([[390],{7435:function(e,t,l){l.r(t),l.d(t,{Head:function(){return o}});var n=l(6540),c=l(5727),a=l(5762),u=l(6808);t.default=()=>n.createElement(c.A,null,n.createElement(u.A,null),n.createElement("div",{className:"pt-32 max-md:pt-16 bg-[#F4F8FF]"},n.createElement(a.A,null)));const o=()=>n.createElement("title",null,"Liên hệ")}}]);
+//# sourceMappingURL=component---src-pages-lien-he-tsx-e1f98b43820ec10707fe.js.map
