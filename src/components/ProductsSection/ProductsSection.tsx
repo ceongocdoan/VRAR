@@ -29,6 +29,7 @@ const productData: ProductData[] = [
   {
     logo: Skill,
     hoverLogo: SkillWhite,
+    title: "Cơ chế\nhoạt động",
     description:
       "Trái tim là một cơ quan quan trọng trong cơ thể con người, có nhiệm vụ bơm máu đi nuôi cơ thể. Bài tập này sẽ giúp học sinh hiểu về các bộ phận của trái tim và chức năng của chúng.",
     image: SkillBanner,
@@ -78,7 +79,7 @@ const ProductSection: React.FC = () => {
         <h1 className="self-center text-5xl font-bold tracking-tight leading-[60px] text-slate-700 max-md:max-w-full max-md:text-2xl">
           Nội dung bài học
         </h1>
-        <div className="flex flex-col mt-9 max-md:mt-2 w-full min-w-[300px] max-md:max-w-full">
+        <div className="">
           {productData.map((product, index) => (
             <ProductCard key={index} {...product} />
           ))}

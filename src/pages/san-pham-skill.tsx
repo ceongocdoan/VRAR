@@ -44,8 +44,8 @@ const IndexPage: React.FC<PageProps> = () => {
       <Header bgColor="bg-[#0071BB] bg-opacity-100" />
       {image ? (
         <ProductsHero
-          headings={["Mở khoá kỹ năng", "Nâng tầm sự nghiệp"]}
-          description="Phát triển các kỹ năng theo xu thế ứng dụng công nghệ vào thực tiễn - Mang lại kỹ năng làm việc thiết yếu cho hàng triệu người một cách hiệu quả."
+          headings={["Các yếu tố ảnh hướng đến", "sức khoẻ tim mạch"]}
+          description="Giới thiệu các yếu tố tác động đến sức khỏe trái tim, như chế độ ăn uống, tập thể dục, và các bệnh lý như cao huyết áp, đột quỵ, nhồi máu cơ tim."
           logoSrc={Logo}
           backgroundImageSrc={image}
         />

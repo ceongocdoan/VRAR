@@ -7,13 +7,19 @@ const FilterTabs: React.FC = () => {
         All
       </button>
       <button className="self-stretch px-4 py-1 my-auto rounded-xl w-[68px]">
-        Data
+        Yếu tố di truyền
       </button>
       <button className="self-stretch px-4 py-1 my-auto rounded-xl w-[85px]">
-        Design
+        Yếu tố bệnh lý
       </button>
       <button className="self-stretch px-4 py-1 my-auto rounded-xl w-[95px]">
-        Develop
+        Yếu tố dinh dưỡng
+      </button>
+      <button className="self-stretch px-4 py-1 my-auto rounded-xl w-[95px]">
+        Yếu tố lối sống
+      </button>
+      <button className="self-stretch px-4 py-1 my-auto rounded-xl w-[95px]">
+        Yếu tố thói quen
       </button>
     </nav>
   );

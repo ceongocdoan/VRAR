@@ -44,10 +44,10 @@ const IndexPage: React.FC<PageProps> = () => {
   }
   
   const statisticsData: StatisticsData[] = [
-    { title:"Học viên", value: "5000+", description: "đang theo học" },
-    { title:"Giảng viên", value: "500+", description: "& chuyển gia" },
-    { title:"Khách hàng",value: "20+", description: "đối tác" },
-    { title:"Đối tác",value: "96%", description: "doanh nghiệp" },
+    { title:"Đập mỗi giờ để duy trì sự sống", value: "4.800+ lần", description: "" },
+    { title:"Máu được bơm qua hệ tuần hoàn mỗi phút", value: "5-6 lít", description: "" },
+    { title:"Độ dài mạng lưới mạch máu trong cơ thể",value: "100.000 km", description: "" },
+    { title:"Số lần đập trung bình mỗi phút của một trái tim khoẻ mạnh",value: "70-100 nhịp", description: "" },
   ];
   
   return (
@@ -55,8 +55,8 @@ const IndexPage: React.FC<PageProps> = () => {
       <Header bgColor="bg-[#DC50F4] bg-opacity-100" />
       {image ? (
         <ProductsHero
-          headings={["Chương trình toán tư duy", "Chất lượng cao"]}
-          description="Đánh thức đam mê và tư duy toán học chỉ sau một khóa học"
+          headings={["Mô phỏng phân tích", "bệnh lý tim mạch"]}
+          description=""
           logoSrc={Logo}
           backgroundImageSrc={image}
         />

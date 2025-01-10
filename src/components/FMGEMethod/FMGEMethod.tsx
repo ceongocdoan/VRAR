@@ -33,49 +33,50 @@ const FMGEMethod: React.FC<FMGEMethodProps> = () => {
 
   const methodCardsMobile = [
     {
-      title: "Full Demonstration",
+      title: "Immersive heart anatomy",
       description:
-        "Để học viên thực sự có trải nghiệm Learning-By-Doing, tất cả kỹ năng đều được làm mẫu nhiều chiều trước khi chuyển sang thực hành. Demo theo nhiều cách: giảng viên thực hành trực tiếp, Guided-Hand-On Video, S10Team theo Peer Programming.",
+        "Với công nghệ AR/VR, học viên sẽ được trải nghiệm một mô hình tim mạch sống động, trực quan và chi tiết. Qua việc khám phá 3D của các bộ phận trong hệ tuần hoàn, người học có thể hiểu rõ hơn về cấu trúc và chức năng của tim, mạch máu và các cơ quan liên quan.",
     },
     {
-      title: "Micro Coaching",
+      title: "Interactive blood flow simulation",
       description:
-        "Micro learning by doing - Hướng dẫn trực tiếp trên từng Task công việc đủ nhỏ. Giúp người học có thể hiểu sâu, đa chiều và tự chọn cách làm mà mình thấy phù hợp. Hình thức bao gồm: Mentor 1-1, AI TechLead, Peer Programming, Pie Step-By-Step Coach.",
+        "Học viên sẽ trực tiếp tương tác với các mô phỏng dòng máu qua các mạch máu trong cơ thể. Thực hành này giúp người học nắm bắt được quy trình tuần hoàn máu và ảnh hưởng của các yếu tố như áp suất máu, tốc độ tuần hoàn và các yếu tố khác lên sức khỏe hệ tim mạch.",
     },
     {
-      title: "Guided Self-Practice",
+      title: "Heart rate visualization",
       description:
-        "Guided Self-Practice là học tập chủ động và tự do, đáp ứng linh hoạt cho người đi làm, nhưng có hướng dẫn và có áp lực tiến độ với học viên bằng sự hướng dẫn và hỗ trợ của TechLead, công cụ AI và Camp Team.",
+        "Thông qua các công cụ AR/VR, học viên có thể quan sát và phân tích sự thay đổi của nhịp tim trong các tình huống khác nhau, từ trạng thái nghỉ ngơi đến khi vận động mạnh. Việc này giúp học viên dễ dàng nhận diện các tín hiệu về sức khỏe tim mạch và cách thức tác động lên nhịp tim.",
     },
     {
-      title: "Evaluation 360",
+      title: "Real-time feedback and analysis",
       description:
-        "Evaluation 360 là hình thức đánh giá toàn diện và liên tục. Với Micro Learning-By-Doing, Evaluation 360 được thực hiện thông qua các hoạt động sau: Test 360, MiniTask, Weekly Project, Milestone Exam, Milestone Project, Review Hackathon.",
+        "Hệ thống AR/VR sẽ cung cấp phản hồi ngay lập tức về hiệu quả của các thao tác hoặc quyết định học viên đưa ra trong mô phỏng. Phản hồi sẽ bao gồm các chỉ số về sức khỏe tim mạch như lưu lượng máu, nhịp tim và huyết áp, từ đó giúp người học phát triển các kỹ năng cần thiết để chăm sóc hệ tim mạch tốt hơn.",
     },
   ];
   
+  
   const methodCards = [
     {
-      title: "Full Demonstration",
+      title: "Immersive heart anatomy",
       description:
-        "Để học viên thực sự có trải nghiệm Learning-By-Doing, tất cả kỹ năng đều được làm mẫu nhiều chiều trước khi chuyển sang thực hành. Demo theo nhiều cách: giảng viên thực hành trực tiếp, Guided-Hand-On Video, S10Team theo Peer Programming.",
+        "Với công nghệ AR/VR, học viên sẽ được trải nghiệm một mô hình tim mạch sống động, trực quan và chi tiết. Qua việc khám phá 3D của các bộ phận trong hệ tuần hoàn, người học có thể hiểu rõ hơn về cấu trúc và chức năng của tim, mạch máu và các cơ quan liên quan.",
     },
     {
-      title: "Evaluation 360",
+      title: "Interactive blood flow simulation",
       description:
-        "Evaluation 360 là hình thức đánh giá toàn diện và liên tục. Với Micro Learning-By-Doing, Evaluation 360 được thực hiện thông qua các hoạt động sau: Test 360, MiniTask, Weekly Project, Milestone Exam, Milestone Project, Review Hackathon.",
+        "Học viên sẽ trực tiếp tương tác với các mô phỏng dòng máu qua các mạch máu trong cơ thể. Thực hành này giúp người học nắm bắt được quy trình tuần hoàn máu và ảnh hưởng của các yếu tố như áp suất máu, tốc độ tuần hoàn và các yếu tố khác lên sức khỏe hệ tim mạch.",
     },
     {
-      title: "Micro Coaching",
+      title: "Heart rate visualization",
       description:
-        "Micro learning by doing - Hướng dẫn trực tiếp trên từng Task công việc đủ nhỏ. Giúp người học có thể hiểu sâu, đa chiều và tự chọn cách làm mà mình thấy phù hợp. Hình thức bao gồm: Mentor 1-1, AI TechLead, Peer Programming, Pie Step-By-Step Coach.",
+        "Thông qua các công cụ AR/VR, học viên có thể quan sát và phân tích sự thay đổi của nhịp tim trong các tình huống khác nhau, từ trạng thái nghỉ ngơi đến khi vận động mạnh. Việc này giúp học viên dễ dàng nhận diện các tín hiệu về sức khỏe tim mạch và cách thức tác động lên nhịp tim.",
     },
     {
-      title: "Guided Self-Practice",
+      title: "Real-time feedback and analysis",
       description:
-        "Guided Self-Practice là học tập chủ động và tự do, đáp ứng linh hoạt cho người đi làm, nhưng có hướng dẫn và có áp lực tiến độ với học viên bằng sự hướng dẫn và hỗ trợ của TechLead, công cụ AI và Camp Team.",
+        "Hệ thống AR/VR sẽ cung cấp phản hồi ngay lập tức về hiệu quả của các thao tác hoặc quyết định học viên đưa ra trong mô phỏng. Phản hồi sẽ bao gồm các chỉ số về sức khỏe tim mạch như lưu lượng máu, nhịp tim và huyết áp, từ đó giúp người học phát triển các kỹ năng cần thiết để chăm sóc hệ tim mạch tốt hơn.",
     },
-  ];
+  ];  
 
   return (
     <div className="w-full max-md:px-4 max-md:py-6 max-md:pt-0 px-32 py-12">
