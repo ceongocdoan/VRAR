@@ -10,15 +10,15 @@ interface Course {
 }
 
 const courses: Course[] = [
-  {title: "Thiết kế Landing page", duration: "2 tháng", category: "Design" },
-  {title: "Excel Dashboard", duration: "1 tháng", category: "Data" },
-  {title: "Figma cho Designer & Developer", duration: "2 tháng", category: "Design" },
-  {title: "Lập trình front-end sử dụng thư viện jQuery", duration: "1 tháng", category: "Develop" },
-  {title: "Xây dựng giao diện với HTML, CSS", duration: "2 tháng", category: "Develop" },
-  {title: "Trình bày dữ liệu với Power BI", duration: "1 tháng", category: "Data" },
-  {title: "Java Core", duration: "3 tháng", category: "Develop" },
-  {title: "Data Pipelines với Python", duration: "1 tháng", category: "Data" },
-  {title: "MySQL Data Analysis (SQL cơ bản)", duration: "1 tháng", category: "Data" },
+  { title: "Di Truyền", duration: "Vĩnh viễn", category: "Yếu tố di truyền" },
+  { title: "Huyết Áp Cao", duration: "Không xác định", category: "Yếu tố bệnh lý" },
+  { title: "Cholesterol Cao", duration: "Không xác định", category: "Yếu tố dinh dưỡng" },
+  { title: "Chế Độ Ăn Uống Không Lành Mạnh", duration: "Không xác định", category: "Yếu tố dinh dưỡng" },
+  { title: "Hút Thuốc", duration: "Không xác định", category: "Yếu tố thói quen" },
+  { title: "Tập Thể Dục Ít", duration: "Không xác định", category: "Yếu tố lối sống" },
+  { title: "Căng Thẳng Mệt Mỏi", duration: "Không xác định", category: "Yếu tố tâm lý" },
+  { title: "Tiểu Đường", duration: "Không xác định", category: "Yếu tố bệnh lý" },
+  { title: "Thừa Cân, Béo Phì", duration: "Không xác định", category: "Yếu tố thể chất" }
   // { title: "Rest API", duration: "3 tháng", category: "Develop" },
   // { title: "Production Database", duration: "1 tháng", category: "Data" },
   // { title: "HTML, CSS Cơ bản", duration: "2 tháng", category: "Design" },

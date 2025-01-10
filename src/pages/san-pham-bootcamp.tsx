@@ -46,10 +46,10 @@ const IndexPage: React.FC<PageProps> = () => {
   }
   
   const statisticsData: StatisticsData[] = [
-    { title:"Học viên tốt nghiệp", value: "5000+", description: "" },
-    { title:"Chuyên gia công nghệ giảng dạy", value: "35+", description: "" },
-    { title:"Doanh nghiệp",value: "63+", description: "" },
-    { title:"Mentor kỹ năng",value: "100+", description: "nghề nghiệp" },
+    { title:"Đập mỗi giờ để duy trì sự sống", value: "4.800+ lần", description: "" },
+    { title:"Máu được bơm qua hệ tuần hoàn mỗi phút", value: "5-6 lít", description: "" },
+    { title:"Độ dài mạng lưới mạch máu trong cơ thể",value: "100.000 km", description: "" },
+    { title:"Số lần đập trung bình mỗi phút của một trái tim khoẻ mạnh",value: "70-100 nhịp", description: "" },
   ];
   return (
     <Layout>
