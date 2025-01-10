@@ -87,6 +87,7 @@ import Button from "../UI/UI/Buttons";
 
 
 
+
 const JobCard = () => {
   const jobs = [
     {
@@ -119,7 +120,7 @@ const JobCard = () => {
     <div>
       {jobs.map((job) => (
         <article
-          // key={job.slug}
+          key={job.slug} 
           className="flex gap-12 justify-between items-center p-9 mt-6 w-full bg-gray-50 rounded-[36px] max-md:max-w-full max-md:flex-col max-md:gap-3"
         >
           <div className="flex flex-col gap-3 self-stretch my-auto min-w-[200px] w-[676px] max-md:max-w-full">
@@ -148,12 +149,6 @@ const JobCard = () => {
               </div>
             </div>
           </div>
-{/* 
-          <Link to={`/lesson/${job.slug}`} className="max-md:w-full">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg">
-              Trải nghiệm ngay
-            </button>
-          </Link> */}
         </article>
       ))}
     </div>
@@ -161,4 +156,6 @@ const JobCard = () => {
 };
 
 export default JobCard;
+
+
 

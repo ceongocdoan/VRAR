@@ -62,7 +62,7 @@ const CourseList: React.FC = () => {
               : "bg-neutral-100"
           }`}
         >
-          Data
+          Di truyền
         </button>
         <button
           onClick={() => setActiveCategory("Design")}
@@ -72,7 +72,7 @@ const CourseList: React.FC = () => {
               : "bg-neutral-100"
           }`}
         >
-          Design
+          Dinh dưỡng
         </button>
         <button
           onClick={() => setActiveCategory("Develop")}
@@ -82,7 +82,7 @@ const CourseList: React.FC = () => {
               : "bg-neutral-100"
           }`}
         >
-          Develop
+          Thể chất
         </button>
       </nav>
       <section className="grid grid-cols-3 place-items-stretch  max-lg:grid-cols-2 max-md:grid-cols-1 gap-6 max-md:gap-4 justify-start items-center self-stretch mt-12 max-md:mt-6 w-full max-md:max-w-full">
