@@ -78,7 +78,7 @@ const ProductSection: React.FC = () => {
         <h1 className="self-center text-5xl font-bold tracking-tight leading-[60px] text-slate-700 max-md:max-w-full max-md:text-2xl">
           Nội dung bài học
         </h1>
-        <div className="flex flex-col mt-9 max-md:mt-2 w-full min-w-[300px] max-md:max-w-full">
+        <div className="">
           {productData.map((product, index) => (
             <ProductCard key={index} {...product} />
           ))}

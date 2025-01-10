@@ -95,7 +95,7 @@ const CoursePreviewSlick: React.FC = () => {
   return (
     <div className="w-full px-4 md:px-32 py-16 max-md:py-6 overflow-hidden">
       <div>
-        <h1 className="max-w-[1184px] mx-auto mb-6 font-bold text-4xl leading-display-md text-[#344054] max-md:text-2xl">
+        {/* <h1 className="max-w-[1184px] mx-auto mb-6 font-bold text-4xl leading-display-md text-[#344054] max-md:text-2xl">
           Các khoá học tại Onschool Bootcamp
         </h1>
         <Slider ref={sliderRef} {...settings}>
@@ -104,7 +104,7 @@ const CoursePreviewSlick: React.FC = () => {
               <CourseCard {...item} isSlider />
             </div>
           ))}
-        </Slider>
+        </Slider> */}
         <div className="px-28 max-md:px-0">
           <SliderNavigate progress={progress} sliderRef={sliderRef} />
         </div>

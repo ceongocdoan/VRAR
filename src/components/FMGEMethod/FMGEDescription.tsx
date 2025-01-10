@@ -12,12 +12,13 @@ const FMGEDescription: React.FC = () => {
       />
       <div className="flex-1 shrink self-start basis-0 max-md:max-w-full h-full">
         <ul className='list-disc flex flex-col justify-between h-full gap-6 px-6'>
-          <li>
-            <strong>FMGE</strong> là phương pháp học thông qua thực hành làm việc (Learning-by-doing). Chương trình đào tạo theo xu hướng project-based learning sẽ đưa các capstone project từ Doanh nghiệp vào chương trình để đào tạo kỹ năng chuyên môn cho người học bằng cách huấn luyện làm trên dự án bởi các Mentor.
-          </li>
-          <li>
-            <strong>FMGE</strong> được Onschool nghiên cứu phát triển và ứng dụng trong các chương trình đào tạo kỹ năng chuyên sâu và đào tạo nghề cho người cần chuyển ngành nhanh. FMGE giúp tạo ra những người làm được việc, đáp ứng được nhu cầu thực tiễn của Doanh nghiệp trong thời gian nhanh nhất.
-          </li>
+        <li>
+  <strong>AR/VR Learning</strong> là phương pháp học thông qua công nghệ thực tế ảo và thực tế tăng cường (AR/VR), giúp người học trải nghiệm và thực hành trong môi trường mô phỏng 3D sống động. Chương trình đào tạo sử dụng AR/VR để người học có thể trực tiếp tương tác và khám phá các mô hình, từ đó phát triển kỹ năng chuyên môn một cách hiệu quả và sinh động.
+</li>
+<li>
+  <strong>AR/VR Learning</strong> được nghiên cứu và phát triển bởi Edtech Hust, ứng dụng công nghệ AR/VR trong các chương trình đào tạo kỹ năng chuyên sâu và nghề nghiệp. Phương pháp này giúp người học có thể tự tin thực hành trong môi trường mô phỏng, đáp ứng nhanh chóng nhu cầu chuyển ngành và đào tạo nghề cho người học, đồng thời giúp người học làm việc hiệu quả hơn trong thời gian ngắn nhất.
+</li>
+
         </ul>
       </div>
     </div>

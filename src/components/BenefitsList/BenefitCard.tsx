@@ -9,10 +9,13 @@ interface BenefitCardProps {
 
 export const BenefitCard: React.FC<BenefitCardProps> = ({
   icon,
-  title,
+  
   subTitle,
   description,
 }) => {
+  const title = [
+    " AR/VR"
+  ];
   return (
     <article className="flex flex-col max-md:flex-row max-md:items-center  flex-1 shrink p-6 bg-gray-50 basis-0 rounded-[36px] max-md:p-4 max-md:gap-4">
       <img

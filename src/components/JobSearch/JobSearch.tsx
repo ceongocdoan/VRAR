@@ -173,11 +173,11 @@ const JobSearch: React.FC = () => {
           <section className="flex flex-wrap gap-6 items-center max-md:gap-4">
             <SearchBar onSearch={(value) => setSearchTerm(value)} />
             <div className="flex flex-wrap gap-6 max-md:gap-4 self-stretch my-auto text-xl min-h-[60px] min-w-[240px] text-neutral-700 max-md:max-w-full">
-              <FilterDropdown
+              {/* <FilterDropdown
                 label="Luyện tập"
                 options={departments}
                 onChange={(value) => setSelectedDepartment(value)}
-              />
+              /> */}
               <FilterDropdown
                 label="Lớp học"
                 options={locations}
